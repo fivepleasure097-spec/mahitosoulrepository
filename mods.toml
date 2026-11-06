@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mahitosoulregen"
+version="1.0.0"
+displayName="Mahito Soul Regen"
+description='''Addon for Jujutsu Craft: damage dealt to Mahito by attackers who cannot observe the soul regenerates much faster.'''
+
+[[dependencies.mahitosoulregen]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mahitosoulregen]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mahitosoulregen]]
+modId="jujutsucraft"
+mandatory=false
+versionRange="*"
+ordering="AFTER"
+side="BOTH"
